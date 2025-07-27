@@ -1,0 +1,1 @@
+/home/yurinka/Projects/TestTasks/Quantum-platformer-fall/quantum_code/quantum.code/QuantumCodeIntegration/QuantumCodeIntegration.cs(67,30): warning CS0618: 'PlayerSettings.GetApiCompatibilityLevel(BuildTargetGroup)' is obsolete: 'Use GetApiCompatibilityLevel(NamedBuildTarget buildTarget) instead'
