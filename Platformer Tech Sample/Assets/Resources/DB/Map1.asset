@@ -85,7 +85,8 @@ MonoBehaviour:
       MutableMode: 0
     MapEntities: []
   Prototypes:
-  - Platform:
+  - HealthComponent: []
+    Platform:
     - Config:
         Id:
           Value: 4364009648544809453
@@ -173,7 +174,8 @@ MonoBehaviour:
     View: []
     PhysicsJoints2D: []
     PhysicsJoints3D: []
-  - Platform:
+  - HealthComponent: []
+    Platform:
     - Config:
         Id:
           Value: 4502467630023492653
@@ -261,7 +263,8 @@ MonoBehaviour:
     View: []
     PhysicsJoints2D: []
     PhysicsJoints3D: []
-  - Platform:
+  - HealthComponent: []
+    Platform:
     - Config:
         Id:
           Value: 3260775260228423452
@@ -349,7 +352,8 @@ MonoBehaviour:
     View: []
     PhysicsJoints2D: []
     PhysicsJoints3D: []
-  - Platform:
+  - HealthComponent: []
+    Platform:
     - Config:
         Id:
           Value: 1675473896151211967
@@ -437,7 +441,8 @@ MonoBehaviour:
     View: []
     PhysicsJoints2D: []
     PhysicsJoints3D: []
-  - Platform:
+  - HealthComponent: []
+    Platform:
     - Config:
         Id:
           Value: 1675473896151211967

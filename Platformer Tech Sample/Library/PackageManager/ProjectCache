@@ -6,7 +6,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638893598330000000
+      ticks: 638893617210000000
     m_Hash: 4068094943
   m_LockFileStatus:
     m_FilePath: /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer
@@ -15,7 +15,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638893599100000000
+      ticks: 638893617210000000
     m_Hash: 1221838986
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -26,7 +26,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638506957580000000
+      ticks: 638893617220000000
     m_Hash: 2644781451
   - m_FilePath: /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/quantum_code/quantum.code
     m_PathExists: 1

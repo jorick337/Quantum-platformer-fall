@@ -415,6 +415,7 @@
 -analyzer:"/home/yurinka/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/home/yurinka/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"/home/yurinka/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/!QuantumPlatformFall/Scripts/HealthCounter.cs"
 "Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs"
 "Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs"
 "Assets/Photon/QuantumDemo/Game/Scripts/CameraFollow.cs"

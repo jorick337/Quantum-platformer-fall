@@ -142,6 +142,7 @@
     <Compile Include="Assets/Photon/Quantum/Scripts/Physics/QuantumStaticTerrainCollider3D.cs" />
     <Compile Include="Assets/Photon/Quantum/Generated/AssetTypes/UnityPrototypeAdapters.cs" />
     <Compile Include="Assets/Photon/Quantum/Scripts/AssetTypes/QuantumPrefabAsset_AssetBundle.cs" />
+    <Compile Include="Assets/Photon/Quantum/Generated/AssetTypes/HealthConfigAsset.cs" />
     <Compile Include="Assets/Photon/Quantum/Generated/AssetTypes/EntityComponentPhysicsBody3D.cs" />
     <Compile Include="Assets/Photon/Quantum/Scripts/Dispatcher/QuantumCallbackHandler_StartRecording.cs" />
     <Compile Include="Assets/Photon/Quantum/Generated/Editor/PropertyDrawers/AssetRefDrawers.cs" />
@@ -223,6 +224,7 @@
     <Compile Include="Assets/Photon/Quantum/Scripts/Stats/QuantumHeapStats.cs" />
     <Compile Include="Assets/Photon/Quantum/Scripts/QuantumCallbacks.cs" />
     <Compile Include="Assets/Photon/Quantum/Scripts/AssetTypes/EntityPrototypeBakedAsset.cs" />
+    <Compile Include="Assets/Photon/Quantum/Generated/AssetTypes/EntityComponentHealthComponent.cs" />
     <Compile Include="Assets/Photon/Quantum/Scripts/AssetTypes/EntityComponentTransform3D.cs" />
     <Compile Include="Assets/Photon/Quantum/Scripts/AssetTypes/CharacterController2DConfigAsset.cs" />
     <Compile Include="Assets/Photon/Quantum/Scripts/QuantumUnityMemoryLayoutVerifierPlatform.cs" />

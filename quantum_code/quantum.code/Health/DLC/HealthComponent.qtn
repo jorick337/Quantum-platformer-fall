@@ -1,0 +1,18 @@
+﻿asset HealthConfig;
+
+component HealthComponent 
+{
+    asset_ref<HealthConfig> Config;
+    bool IsInitialize;
+}
+
+event OnHealthChanged 
+{
+    int lastValue;
+    int newValue;
+}
+
+event OnHealthInitialized 
+{
+    int value;
+}

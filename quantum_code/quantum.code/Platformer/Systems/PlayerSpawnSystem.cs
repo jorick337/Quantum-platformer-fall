@@ -16,7 +16,7 @@
             {
                 Player = player,
             };
-            
+
             frame.Add(entity, playerLink);
 
             // Offset the instantiated object in the world, based in its ID.

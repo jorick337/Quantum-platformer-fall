@@ -82,6 +82,7 @@
     <Compile Include="Assets/Photon/QuantumDemo/Game/Scripts/PlayerAnimationView.cs" />
     <Compile Include="Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/UIConnect.cs" />
+    <Compile Include="Assets/!QuantumPlatformFall/Scripts/HealthCounter.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/PhotonAppVersions.cs" />
     <Compile Include="Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/UIGame.cs" />
