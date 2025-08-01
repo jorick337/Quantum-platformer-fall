@@ -33,7 +33,8 @@ namespace Quantum
                 new MovementSystem(),
                 new PlayerHeadSystem(),
                 new HealthSystem(),
-            };
+                new FallDamageSystem(),
+        };
         }
     }
 }

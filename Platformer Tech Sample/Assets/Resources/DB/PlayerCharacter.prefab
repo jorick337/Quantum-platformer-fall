@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7111197849992158610}
   - component: {fileID: 8735769970721242690}
   - component: {fileID: -4832793559135962726}
+  - component: {fileID: 7285451854595300995}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Untagged
@@ -64,7 +65,7 @@ MonoBehaviour:
       Id:
         Value: 0
     SourceCollider: {fileID: 0}
-    IsEnabled: 0
+    IsEnabled: 1
     Shape2D:
       ShapeType: 0
       PolygonCollider:
@@ -297,8 +298,22 @@ MonoBehaviour:
     Config:
       Id:
         Value: 311962978520919323
-    IsInitialize:
-      Value: 0
+--- !u!114 &7285451854595300995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7440238943082942806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f6bf9ea4925db285bfc128f36bb3e7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prototype:
+    Config:
+      Id:
+        Value: 4564947284476407672
 --- !u!1001 &1395315466465054371
 PrefabInstance:
   m_ObjectHideFlags: 0

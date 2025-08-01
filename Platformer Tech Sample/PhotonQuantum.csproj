@@ -208,6 +208,7 @@
     <Compile Include="Assets/Photon/Quantum/Scripts/QuantumGameCallback_MapLoading.cs" />
     <Compile Include="Assets/Photon/Quantum/Scripts/Dispatcher/QuantumEvent.cs" />
     <Compile Include="Assets/Photon/Quantum/Scripts/Utils/GizmoUtils.cs" />
+    <Compile Include="Assets/Photon/Quantum/Generated/AssetTypes/FallStateConfigAsset.cs" />
     <Compile Include="Assets/Photon/Quantum/Scripts/Utils/IQuantumEditorGUI.cs" />
     <Compile Include="Assets/Photon/Quantum/Scripts/QuantumGameCallback_DebugDraw.cs" />
     <Compile Include="Assets/Photon/Quantum/Generated/AssetTypes/EntityComponentNavMeshAvoidanceObstacle.cs" />
@@ -228,6 +229,7 @@
     <Compile Include="Assets/Photon/Quantum/Scripts/AssetTypes/EntityComponentTransform3D.cs" />
     <Compile Include="Assets/Photon/Quantum/Scripts/AssetTypes/CharacterController2DConfigAsset.cs" />
     <Compile Include="Assets/Photon/Quantum/Scripts/QuantumUnityMemoryLayoutVerifierPlatform.cs" />
+    <Compile Include="Assets/Photon/Quantum/Generated/AssetTypes/EntityComponentFallStateComponent.cs" />
     <Compile Include="Assets/Photon/Quantum/Scripts/AssetLinking/AssetResourceContainer.cs" />
     <Compile Include="Assets/Photon/Quantum/Scripts/AssetTypes/INestedAssetHost.cs" />
     <Compile Include="Assets/Photon/Quantum/Scripts/QuantumUnityJsonSerializer.cs" />

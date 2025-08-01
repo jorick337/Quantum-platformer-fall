@@ -18,7 +18,4 @@ MonoBehaviour:
       Guid:
         Value: 311962978520919323
     MaxHealth:
-      RawValue: 6553600
-    CurrentHealth:
-      RawValue: 6553600
-    IsDead: 0
+      RawValue: 65536

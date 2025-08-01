@@ -68,6 +68,9 @@
     <Compile Include="/home/yurinka/Projects/TestTasks/Quantum-platformer-fall/quantum_code/quantum.code/Platformer/Systems/PlayerHeadSystem.cs">
       <Link>Platformer/Systems/PlayerHeadSystem.cs</Link>
     </Compile>
+    <Compile Include="/home/yurinka/Projects/TestTasks/Quantum-platformer-fall/quantum_code/quantum.code/Health/Scripts/FallStateConfig.cs">
+      <Link>Health/Scripts/FallStateConfig.cs</Link>
+    </Compile>
     <Compile Include="/home/yurinka/Projects/TestTasks/Quantum-platformer-fall/quantum_code/quantum.code/Platformer/PlatformConfig.cs">
       <Link>Platformer/PlatformConfig.cs</Link>
     </Compile>
@@ -142,6 +145,9 @@
     </Compile>
     <Compile Include="/home/yurinka/Projects/TestTasks/Quantum-platformer-fall/quantum_code/quantum.code/SystemSetup.cs">
       <Link>SystemSetup.cs</Link>
+    </Compile>
+    <Compile Include="/home/yurinka/Projects/TestTasks/Quantum-platformer-fall/quantum_code/quantum.code/Health/Scripts/FallDamageSystem.cs">
+      <Link>Health/Scripts/FallDamageSystem.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -660,6 +666,7 @@
     <ProjectCapability Remove="ReferenceManagerAssemblies" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="/home/yurinka/Projects/TestTasks/Quantum-platformer-fall/quantum_code/quantum.code/Health/DLC/FallStateComponent.qtn" />
     <None Include="/home/yurinka/Projects/TestTasks/Quantum-platformer-fall/quantum_code/quantum.code/Health/DLC/HealthComponent.qtn" />
     <None Include="/home/yurinka/Projects/TestTasks/Quantum-platformer-fall/quantum_code/quantum.code/Platformer/DSL/Input.qtn" />
     <None Include="/home/yurinka/Projects/TestTasks/Quantum-platformer-fall/quantum_code/quantum.code/Platformer/DSL/Platform.qtn" />

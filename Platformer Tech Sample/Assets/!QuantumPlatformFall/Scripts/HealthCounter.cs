@@ -29,7 +29,7 @@ namespace Game.Health
                 _text.text = text;
         }
 
-        private void OnHealthChanged(EventOnHealthChanged e) => SetText(e.lastValue.ToString());
+        private void OnHealthChanged(EventOnHealthChanged e) => SetText(e.newValue.ToString());
         private void OnHealthInitialize(EventOnHealthInitialized e) => SetText(e.value.ToString());
     }
 }

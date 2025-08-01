@@ -101,3 +101,8 @@ MonoBehaviour:
         Id:
           Value: 4513153228283176433
       ResourcePath: DB/DefaultPlatformControllerConfig
+    - Path: Resources/DB/Health/FallStateConfig
+      AssetRef:
+        Id:
+          Value: 4564947284476407672
+      ResourcePath: DB/Health/FallStateConfig
