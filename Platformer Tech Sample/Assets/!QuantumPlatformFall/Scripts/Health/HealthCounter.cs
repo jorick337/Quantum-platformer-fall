@@ -2,14 +2,14 @@ using Quantum;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Game.Health
+namespace Game.Health.UI
 {
     public class HealthCounter : MonoBehaviour
     {
-        [SerializeField] private Text _text;
-
         private DispatcherSubscription _quantumOnInitializeHealthEvent;
         private DispatcherSubscription _quantumOnChangedHealthEvent;
+        
+        [SerializeField] private Text _text;
 
         private void OnEnable()
         {

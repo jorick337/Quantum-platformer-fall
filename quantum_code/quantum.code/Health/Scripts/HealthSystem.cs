@@ -43,6 +43,8 @@ namespace Quantum.Health
             filter.Health->IsDead = true;
             filter.Health->CurrentHealth = 0;
             f.Events.OnHealthDead();
+
+            f.Destroy(filter.Entity);
         }
 
         private void Change(Frame f, ref Filter filter)
