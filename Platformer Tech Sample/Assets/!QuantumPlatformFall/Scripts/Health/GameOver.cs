@@ -6,10 +6,10 @@ namespace Game.Health.UI
     public class GameOver : MonoBehaviour
     {
         private DispatcherSubscription _quantumOnHealthDeadEvent;
-        
+
         [SerializeField] private CanvasGroup _canvasGroup;
 
-        private void OnEnable() =>_quantumOnHealthDeadEvent = QuantumEvent.Subscribe<EventOnHealthDead>(this, EnableCanvasGroup);
+        private void OnEnable() => _quantumOnHealthDeadEvent = QuantumEvent.Subscribe<EventOnHealthDead>(this, ShowGameOver);
         private void OnDisable() => QuantumEvent.Unsubscribe(_quantumOnHealthDeadEvent);
 
         private void SetActiveCanvasGroup(bool active)
@@ -19,6 +19,6 @@ namespace Game.Health.UI
             _canvasGroup.interactable = active;
         }
 
-        private void EnableCanvasGroup(EventOnHealthDead e) => SetActiveCanvasGroup(true);
+        private void ShowGameOver(EventOnHealthDead e) => SetActiveCanvasGroup(true);
     }
 }

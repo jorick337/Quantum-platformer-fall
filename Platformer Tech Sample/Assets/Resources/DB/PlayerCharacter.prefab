@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 7983938273834229106}
   - component: {fileID: 7111197849992158610}
   - component: {fileID: 8735769970721242690}
-  - component: {fileID: -4832793559135962726}
-  - component: {fileID: 7285451854595300995}
+  - component: {fileID: 2203567525366583150}
+  - component: {fileID: -856141610404607949}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Untagged
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 1395315466474552259}
---- !u!114 &-4832793559135962726
+--- !u!114 &2203567525366583150
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -298,7 +298,7 @@ MonoBehaviour:
     Config:
       Id:
         Value: 311962978520919323
---- !u!114 &7285451854595300995
+--- !u!114 &-856141610404607949
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

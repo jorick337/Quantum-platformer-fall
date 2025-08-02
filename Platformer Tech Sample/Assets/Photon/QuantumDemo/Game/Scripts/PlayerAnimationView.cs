@@ -6,11 +6,11 @@ using UnityEngine;
 public class PlayerAnimationView : MonoBehaviour
 {
     private const string SPEED_PARAMETER = "Speed";
-    
+
     [SerializeField] private Animator _animator;
 
     private EntityView _view;
-    
+
     private static readonly int _speed = Animator.StringToHash(SPEED_PARAMETER);
 
     private void Awake()
@@ -20,10 +20,13 @@ public class PlayerAnimationView : MonoBehaviour
 
     private void Update()
     {
-        if(QuantumRunner.Default == null || QuantumRunner.Default.IsRunning == false)
+        if (QuantumRunner.Default == null || QuantumRunner.Default.IsRunning == false)
             return;
 
         Frame f = QuantumRunner.Default.Game.Frames.Predicted;
+
+        if (_view == null || !_view.EntityRef.IsValid || !f.Exists(_view.EntityRef))
+            return;
 
         FPVector3 vec = f.Get<CharacterController3D>(_view.EntityRef).Velocity;
 

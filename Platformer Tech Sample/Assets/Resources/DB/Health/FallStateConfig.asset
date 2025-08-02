@@ -17,10 +17,7 @@ MonoBehaviour:
       Path: Resources/DB/Health/FallStateConfig
       Guid:
         Value: 4564947284476407672
-    MinHight:
+    MinHeight:
       RawValue: 65536
     Damage:
-      RawValue: 65536
-    StartY:
-      RawValue: 0
-    IsFalling: 0
+      RawValue: 327680

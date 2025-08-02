@@ -21,7 +21,7 @@ namespace Quantum.Health
             {
                 Die(f, ref filter);
             }
-
+            
             if (filter.Health->PreviousHealth != filter.Health->CurrentHealth)
             {
                 Change(f, ref filter);

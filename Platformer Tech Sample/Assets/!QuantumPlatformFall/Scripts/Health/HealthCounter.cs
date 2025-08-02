@@ -1,3 +1,5 @@
+using System.Globalization;
+using System.Linq;
 using Quantum;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,8 +10,23 @@ namespace Game.Health.UI
     {
         private DispatcherSubscription _quantumOnInitializeHealthEvent;
         private DispatcherSubscription _quantumOnChangedHealthEvent;
-        
+
         [SerializeField] private Text _text;
+
+        private void Awake()
+        {
+            var game = QuantumRunner.Default?.Game;
+            if (game == null)
+                return;
+
+            var frame = game.Frames.Predicted;
+
+            foreach (var item in frame.GetComponentIterator<HealthComponent>())
+            {
+                var health = item.Component.CurrentHealth;
+                SetText(health.ToString());
+            }
+        }
 
         private void OnEnable()
         {
