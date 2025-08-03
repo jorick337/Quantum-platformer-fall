@@ -69,6 +69,7 @@
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/UIDialog.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/UIConnecting.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/PhotonRegions.cs" />
+    <Compile Include="Assets/!QuantumPlatformFall/Scripts/Health/GameOver.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Game/Scripts/LocalInput.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Game/Scripts/CameraFollow.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/ClientIdProvider.cs" />
@@ -77,11 +78,13 @@
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/UIRoom.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/RuntimeConfigContainer.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Game/Scripts/PlayerView.cs" />
+    <Compile Include="Assets/!QuantumPlatformFall/Scripts/Health/HealthCounter.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/UIMain.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/UIFooter.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Game/Scripts/PlayerAnimationView.cs" />
     <Compile Include="Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/UIConnect.cs" />
+    <Compile Include="Assets/!QuantumPlatformFall/Scripts/UI/SceneReference.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/PhotonAppVersions.cs" />
     <Compile Include="Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/UIGame.cs" />
@@ -89,6 +92,7 @@
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/UIAutoMenu.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/UIDropdownItemSelectionColor.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/UIReconnecting.cs" />
+    <Compile Include="Assets/!QuantumPlatformFall/Scripts/UI/LoadSceneButton.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Game/Scripts/MouseLocker.cs" />
     <Compile Include="Assets/Photon/QuantumDemo/Menu/Scripts/ReconnectInformation.cs" />
   </ItemGroup>

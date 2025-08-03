@@ -11,8 +11,8 @@ Available memory:        15968 MB
 Using pre-set license
 Pro License: YES
 The selected window backend is (null) 
-Gtk-Message: 07:26:01.527: Failed to load module "colorreload-gtk-module"
-Gtk-Message: 07:26:01.527: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 06:38:24.514: Failed to load module "colorreload-gtk-module"
+Gtk-Message: 06:38:24.514: Failed to load module "appmenu-gtk-module"
 Desktop is 1920 x 1080 @ 60 Hz
 Initialize udev device monitor.
 
@@ -28,7 +28,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-46555
+45703
 -job-worker-count
 3
 -background-job-worker-count
@@ -37,9 +37,9 @@ Logs/AssetImportWorker1.log
 1
 Successfully changed project path to: /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample
 
-(Unity:14644): Gtk-CRITICAL **: 07:26:01.639: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:2985): Gtk-CRITICAL **: 06:38:24.629: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 
-(Unity:14644): Gtk-CRITICAL **: 07:26:01.640: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:2985): Gtk-CRITICAL **: 06:38:24.630: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
@@ -76,14 +76,14 @@ Successfully changed project path to: /home/yurinka/Projects/TestTasks/Quantum-p
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [139975282648192]  Target information:
+Player connection [132797355369600]  Target information:
 
-Player connection [139975282648192]  * "[IP] 192.168.0.8 [Port] 0 [Flags] 2 [Guid] 2295017423 [EditorId] 2295017423 [Version] 1048832 [Id] LinuxEditor(16,10.96.0.48) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [132797355369600]  * "[IP] 192.168.0.8 [Port] 0 [Flags] 2 [Guid] 3728204816 [EditorId] 3728204816 [Version] 1048832 [Id] LinuxEditor(16,10.96.0.46) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139975282648192]  * "[IP] 10.96.0.48 [Port] 0 [Flags] 2 [Guid] 2295017423 [EditorId] 2295017423 [Version] 1048832 [Id] LinuxEditor(16,10.96.0.48) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [132797355369600]  * "[IP] 10.96.0.46 [Port] 0 [Flags] 2 [Guid] 3728204816 [EditorId] 3728204816 [Version] 1048832 [Id] LinuxEditor(16,10.96.0.46) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139975282648192] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [139975282648192] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [132797355369600] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [132797355369600] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -95,7 +95,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2,94 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 2,99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 6000.0.38f1 (82314a941f2d)
 [Subsystems] Discovering subsystems at path /home/yurinka/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Resources/UnitySubsystems
@@ -114,50 +114,50 @@ RB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_objec
 f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anis
 otropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth
 _clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 164757824
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1638761792
 Initialize mono
 Mono path[0] = '/home/yurinka/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Managed'
 Mono path[1] = '/home/yurinka/Unity/Hub/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/yurinka/Unity/Hub/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56985
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/yurinka/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/yurinka/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,002990 seconds.
-- Loaded All Assemblies, in  0,605 seconds
+Registered in 0,002812 seconds.
+- Loaded All Assemblies, in  0,546 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,569 seconds
-Domain Reload Profiling: 1174ms
-	BeginReloadAssembly (117ms)
+- Finished resetting the current domain, in  0,597 seconds
+Domain Reload Profiling: 1143ms
+	BeginReloadAssembly (114ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (89ms)
-	LoadAllAssembliesAndSetupDomain (311ms)
-		LoadAssemblies (115ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (261ms)
+		LoadAssemblies (113ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (307ms)
-			TypeCache.Refresh (305ms)
-				TypeCache.ScanAssembly (280ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (256ms)
+				TypeCache.ScanAssembly (236ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (570ms)
+	FinalizeReload (597ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (495ms)
+		SetupLoadedEditorAssemblies (530ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (45ms)
+			InitializePlatformSupportModulesInManaged (38ms)
 			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (242ms)
-			ProcessInitializeOnLoadMethodAttributes (104ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -167,116 +167,113 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0,949 seconds
-Refreshing native plugins compatible for Editor in 2,82 ms, found 0 plugins.
+- Loaded All Assemblies, in  1,216 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3,49 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2,90 ms, found 0 plugins.
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 3,18 ms, found 0 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1,084 seconds
-Domain Reload Profiling: 2030ms
-	BeginReloadAssembly (190ms)
+- Finished resetting the current domain, in  1,262 seconds
+Domain Reload Profiling: 2476ms
+	BeginReloadAssembly (242ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (104ms)
-	LoadAllAssembliesAndSetupDomain (569ms)
-		LoadAssemblies (419ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (116ms)
+	LoadAllAssembliesAndSetupDomain (765ms)
+		LoadAssemblies (490ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (239ms)
-			TypeCache.Refresh (181ms)
-				TypeCache.ScanAssembly (157ms)
-			BuildScriptInfoCaches (51ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (1084ms)
+		AnalyzeDomain (378ms)
+			TypeCache.Refresh (298ms)
+				TypeCache.ScanAssembly (263ms)
+			BuildScriptInfoCaches (67ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1263ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (914ms)
+		SetupLoadedEditorAssemblies (1058ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (151ms)
-			ProcessInitializeOnLoadAttributes (472ms)
-			ProcessInitializeOnLoadMethodAttributes (277ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (558ms)
+			ProcessInitializeOnLoadMethodAttributes (322ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-AutoLocale: current locale expects 'C' but got 'ru_RU.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.89 ms, found 0 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+AutoLocale: current locale expects 'C' but got 'ru_RU.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 3.76 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2997 unused Assets / (0.7 MB). Loaded Objects now: 3451.
-Memory consumption went from 74.0 MB to 73.4 MB.
-Total: 17.519030 ms (FindLiveObjects: 0.432171 ms CreateObjectMapping: 0.330310 ms MarkObjects: 15.568546 ms  DeleteObjects: 1.186323 ms)
+Unloading 3007 unused Assets / (259.1 KB). Loaded Objects now: 3463.
+Memory consumption went from 74.7 MB to 74.4 MB.
+Total: 23.208325 ms (FindLiveObjects: 0.685038 ms CreateObjectMapping: 0.361659 ms MarkObjects: 20.801251 ms  DeleteObjects: 1.358474 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2109.746058 seconds.
-  path: Packages/com.exitgames.photonquantumcode/PhotonQuantumCode.asmdef
-  artifactKey: Guid(5d82202959c2f144ea95e134645b6833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.exitgames.photonquantumcode/PhotonQuantumCode.asmdef using Guid(5d82202959c2f144ea95e134645b6833) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47fd0756aaa70d19d1b89e0e805f4534') in 0.00569777 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 67.282744 seconds.
+  path: Assets/Photon/QuantumDemo/Menu/Resources/PhotonRegions.asset
+  artifactKey: Guid(fe15d4e5a8a588547b636619e65da1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/QuantumDemo/Menu/Resources/PhotonRegions.asset using Guid(fe15d4e5a8a588547b636619e65da1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c588f4bf0027e8af361bd15aeeb3c6e6') in 0.035112881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 2.82 ms, found 0 plugins.
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2959 unused Assets / (0.8 MB). Loaded Objects now: 3453.
-Memory consumption went from 72.2 MB to 71.4 MB.
-Total: 19.930857 ms (FindLiveObjects: 0.516034 ms CreateObjectMapping: 0.362737 ms MarkObjects: 17.838182 ms  DeleteObjects: 1.212286 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.07 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2959 unused Assets / (0.8 MB). Loaded Objects now: 3453.
-Memory consumption went from 72.2 MB to 71.4 MB.
-Total: 19.723884 ms (FindLiveObjects: 0.556791 ms CreateObjectMapping: 0.319782 ms MarkObjects: 17.652807 ms  DeleteObjects: 1.192618 ms)
+Unloading 2969 unused Assets / (0.8 MB). Loaded Objects now: 3466.
+Memory consumption went from 72.9 MB to 72.1 MB.
+Total: 18.200085 ms (FindLiveObjects: 0.744314 ms CreateObjectMapping: 0.360555 ms MarkObjects: 15.911567 ms  DeleteObjects: 1.181528 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 2.84 ms, found 0 plugins.
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.77 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2958 unused Assets / (507.8 KB). Loaded Objects now: 3453.
-Memory consumption went from 72.2 MB to 71.7 MB.
-Total: 15.709753 ms (FindLiveObjects: 0.423947 ms CreateObjectMapping: 0.289620 ms MarkObjects: 13.991432 ms  DeleteObjects: 1.003286 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2958 unused Assets / (396.8 KB). Loaded Objects now: 3453.
-Memory consumption went from 72.2 MB to 71.8 MB.
-Total: 16.164731 ms (FindLiveObjects: 0.423932 ms CreateObjectMapping: 0.267118 ms MarkObjects: 14.548333 ms  DeleteObjects: 0.924292 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.88 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2958 unused Assets / (0.9 MB). Loaded Objects now: 3453.
-Memory consumption went from 72.2 MB to 71.3 MB.
-Total: 16.221611 ms (FindLiveObjects: 0.434817 ms CreateObjectMapping: 0.280724 ms MarkObjects: 14.364254 ms  DeleteObjects: 1.140659 ms)
+Unloading 2969 unused Assets / (0.6 MB). Loaded Objects now: 3466.
+Memory consumption went from 72.9 MB to 72.2 MB.
+Total: 17.658779 ms (FindLiveObjects: 0.443258 ms CreateObjectMapping: 0.257384 ms MarkObjects: 15.865970 ms  DeleteObjects: 1.090896 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.927 seconds
+- Loaded All Assemblies, in  0.912 seconds
 'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -299,139 +296,55 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 
 (Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
 
-Refreshing native plugins compatible for Editor in 2.89 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 2.81 ms, found 0 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.177 seconds
-Domain Reload Profiling: 2104ms
-	BeginReloadAssembly (227ms)
+- Finished resetting the current domain, in  1.178 seconds
+Domain Reload Profiling: 2090ms
+	BeginReloadAssembly (253ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (86ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (532ms)
-		LoadAssemblies (397ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (496ms)
+		LoadAssemblies (410ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (222ms)
-			TypeCache.Refresh (78ms)
-				TypeCache.ScanAssembly (64ms)
-			BuildScriptInfoCaches (136ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (158ms)
 			ResolveRequiredComponents (6ms)
 	FinalizeReload (1178ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1004ms)
+		SetupLoadedEditorAssemblies (1000ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (15ms)
-			BeforeProcessingInitializeOnLoad (157ms)
-			ProcessInitializeOnLoadAttributes (555ms)
-			ProcessInitializeOnLoadMethodAttributes (267ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (542ms)
+			ProcessInitializeOnLoadMethodAttributes (284ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 2.94 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2994 unused Assets / (1.0 MB). Loaded Objects now: 3453.
-Memory consumption went from 73.7 MB to 72.8 MB.
-Total: 20.035549 ms (FindLiveObjects: 0.486398 ms CreateObjectMapping: 0.278500 ms MarkObjects: 17.916218 ms  DeleteObjects: 1.352861 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.82 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2959 unused Assets / (0.6 MB). Loaded Objects now: 3454.
-Memory consumption went from 73.8 MB to 73.2 MB.
-Total: 16.438221 ms (FindLiveObjects: 0.455070 ms CreateObjectMapping: 0.299065 ms MarkObjects: 14.604851 ms  DeleteObjects: 1.078009 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.898 seconds
-'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.76 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for WebGL target not found
-System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
-  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
-  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
-  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
-  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
-
-Refreshing native plugins compatible for Editor in 2.86 ms, found 0 plugins.
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.175 seconds
-Domain Reload Profiling: 2072ms
-	BeginReloadAssembly (216ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (76ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (514ms)
-		LoadAssemblies (412ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (188ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (164ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1175ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (999ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (152ms)
-			ProcessInitializeOnLoadAttributes (539ms)
-			ProcessInitializeOnLoadMethodAttributes (287ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.88 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2995 unused Assets / (0.9 MB). Loaded Objects now: 3454.
-Memory consumption went from 73.9 MB to 73.0 MB.
-Total: 16.961838 ms (FindLiveObjects: 0.437234 ms CreateObjectMapping: 0.320493 ms MarkObjects: 14.955972 ms  DeleteObjects: 1.246207 ms)
+Unloading 3005 unused Assets / (0.8 MB). Loaded Objects now: 3466.
+Memory consumption went from 74.0 MB to 73.1 MB.
+Total: 16.669364 ms (FindLiveObjects: 0.433222 ms CreateObjectMapping: 0.283040 ms MarkObjects: 14.657502 ms  DeleteObjects: 1.294066 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 151.142485 seconds.
-  path: Assets/DebugHealth.cs
-  artifactKey: Guid(bbca78d7833a17091b42d1653bbfab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DebugHealth.cs using Guid(bbca78d7833a17091b42d1653bbfab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b075604870388df205b7e7d96125e59b') in 0.00263311 seconds
+  Time since last request: 1135.734712 seconds.
+  path: Assets/!QuantumPlatformFall/Scripts/UI/GameOVer.cs
+  artifactKey: Guid(fd71512dd031282579693087afa6fdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!QuantumPlatformFall/Scripts/UI/GameOVer.cs using Guid(fd71512dd031282579693087afa6fdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0151d52cca8dd61ea637d16a79fa4bec') in 0.002394719 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
@@ -440,24 +353,24 @@ Received Prepare
 'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 3.09 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2958 unused Assets / (0.6 MB). Loaded Objects now: 3453.
-Memory consumption went from 73.9 MB to 73.3 MB.
-Total: 19.279011 ms (FindLiveObjects: 0.543595 ms CreateObjectMapping: 0.390301 ms MarkObjects: 16.977141 ms  DeleteObjects: 1.366452 ms)
+Unloading 2969 unused Assets / (480.3 KB). Loaded Objects now: 3466.
+Memory consumption went from 74.0 MB to 73.6 MB.
+Total: 19.526759 ms (FindLiveObjects: 0.441508 ms CreateObjectMapping: 0.274778 ms MarkObjects: 17.890728 ms  DeleteObjects: 0.918507 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.869 seconds
+- Loaded All Assemblies, in  0.896 seconds
 'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.76 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 3.22 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
@@ -475,47 +388,47 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 
 (Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
 
-Refreshing native plugins compatible for Editor in 2.88 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 2.80 ms, found 0 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.220 seconds
-Domain Reload Profiling: 2089ms
-	BeginReloadAssembly (218ms)
+- Finished resetting the current domain, in  1.163 seconds
+Domain Reload Profiling: 2059ms
+	BeginReloadAssembly (199ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (78ms)
-	RebuildCommonClasses (64ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (63ms)
 	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (486ms)
-		LoadAssemblies (393ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (535ms)
+		LoadAssemblies (421ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (180ms)
-			TypeCache.Refresh (13ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (15ms)
 				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (159ms)
+			BuildScriptInfoCaches (172ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (1220ms)
+	FinalizeReload (1164ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1045ms)
+		SetupLoadedEditorAssemblies (985ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (177ms)
-			ProcessInitializeOnLoadAttributes (572ms)
-			ProcessInitializeOnLoadMethodAttributes (275ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (174ms)
+			ProcessInitializeOnLoadAttributes (516ms)
+			ProcessInitializeOnLoadMethodAttributes (274ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.87 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 3.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2994 unused Assets / (348.7 KB). Loaded Objects now: 3453.
-Memory consumption went from 73.9 MB to 73.5 MB.
-Total: 16.248634 ms (FindLiveObjects: 0.470521 ms CreateObjectMapping: 0.276295 ms MarkObjects: 14.559074 ms  DeleteObjects: 0.941573 ms)
+Unloading 3005 unused Assets / (0.8 MB). Loaded Objects now: 3466.
+Memory consumption went from 74.0 MB to 73.2 MB.
+Total: 17.485506 ms (FindLiveObjects: 0.555169 ms CreateObjectMapping: 0.380109 ms MarkObjects: 15.445529 ms  DeleteObjects: 1.102687 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -524,33 +437,103 @@ Received Prepare
 'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 3.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2959 unused Assets / (0.8 MB). Loaded Objects now: 3454.
-Memory consumption went from 73.9 MB to 73.2 MB.
-Total: 15.938013 ms (FindLiveObjects: 0.442351 ms CreateObjectMapping: 0.267302 ms MarkObjects: 14.227747 ms  DeleteObjects: 0.999493 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2959 unused Assets / (0.9 MB). Loaded Objects now: 3454.
-Memory consumption went from 73.9 MB to 73.0 MB.
-Total: 19.178983 ms (FindLiveObjects: 0.490966 ms CreateObjectMapping: 0.310195 ms MarkObjects: 17.093707 ms  DeleteObjects: 1.282660 ms)
+Unloading 2969 unused Assets / (0.5 MB). Loaded Objects now: 3466.
+Memory consumption went from 74.0 MB to 73.5 MB.
+Total: 19.027442 ms (FindLiveObjects: 0.468751 ms CreateObjectMapping: 0.274745 ms MarkObjects: 17.247041 ms  DeleteObjects: 1.035554 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.901 seconds
+- Loaded All Assemblies, in  0.877 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.74 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 3.58 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.226 seconds
+Domain Reload Profiling: 2104ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (497ms)
+		LoadAssemblies (398ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (163ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1227ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1046ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (553ms)
+			ProcessInitializeOnLoadMethodAttributes (315ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3005 unused Assets / (0.6 MB). Loaded Objects now: 3466.
+Memory consumption went from 74.0 MB to 73.3 MB.
+Total: 17.198076 ms (FindLiveObjects: 0.586240 ms CreateObjectMapping: 0.470267 ms MarkObjects: 15.153359 ms  DeleteObjects: 0.985903 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2970 unused Assets / (0.8 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.0 MB to 73.3 MB.
+Total: 16.674169 ms (FindLiveObjects: 0.442056 ms CreateObjectMapping: 0.286481 ms MarkObjects: 14.846544 ms  DeleteObjects: 1.097859 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.902 seconds
 'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -573,47 +556,47 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 
 (Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
 
-Refreshing native plugins compatible for Editor in 2.89 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 3.58 ms, found 0 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.157 seconds
-Domain Reload Profiling: 2058ms
-	BeginReloadAssembly (220ms)
+- Finished resetting the current domain, in  1.187 seconds
+Domain Reload Profiling: 2090ms
+	BeginReloadAssembly (221ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (80ms)
-	RebuildCommonClasses (64ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (63ms)
 	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (515ms)
-		LoadAssemblies (404ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (514ms)
+		LoadAssemblies (403ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (188ms)
-			TypeCache.Refresh (25ms)
-				TypeCache.ScanAssembly (14ms)
-			BuildScriptInfoCaches (155ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (169ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (1157ms)
+	FinalizeReload (1188ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (984ms)
+		SetupLoadedEditorAssemblies (1011ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (145ms)
-			ProcessInitializeOnLoadAttributes (538ms)
-			ProcessInitializeOnLoadMethodAttributes (279ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (553ms)
+			ProcessInitializeOnLoadMethodAttributes (283ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.85 ms, found 0 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2995 unused Assets / (505.2 KB). Loaded Objects now: 3454.
-Memory consumption went from 73.9 MB to 73.4 MB.
-Total: 15.970459 ms (FindLiveObjects: 0.447378 ms CreateObjectMapping: 0.294574 ms MarkObjects: 14.276143 ms  DeleteObjects: 0.951081 ms)
+Unloading 3006 unused Assets / (0.6 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.0 MB to 73.4 MB.
+Total: 19.049835 ms (FindLiveObjects: 0.588673 ms CreateObjectMapping: 0.308954 ms MarkObjects: 17.092808 ms  DeleteObjects: 1.057618 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -622,61 +605,19 @@ Received Prepare
 'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.80 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 2.83 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2960 unused Assets / (0.7 MB). Loaded Objects now: 3455.
-Memory consumption went from 73.9 MB to 73.3 MB.
-Total: 16.433437 ms (FindLiveObjects: 0.464937 ms CreateObjectMapping: 0.286739 ms MarkObjects: 14.675391 ms  DeleteObjects: 1.004864 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.78 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2959 unused Assets / (0.7 MB). Loaded Objects now: 3454.
-Memory consumption went from 73.9 MB to 73.3 MB.
-Total: 17.357426 ms (FindLiveObjects: 0.533508 ms CreateObjectMapping: 0.308235 ms MarkObjects: 15.406621 ms  DeleteObjects: 1.107703 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.82 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2960 unused Assets / (0.8 MB). Loaded Objects now: 3455.
-Memory consumption went from 73.9 MB to 73.1 MB.
-Total: 16.422084 ms (FindLiveObjects: 0.446408 ms CreateObjectMapping: 0.313088 ms MarkObjects: 14.532570 ms  DeleteObjects: 1.128900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2959 unused Assets / (131.0 KB). Loaded Objects now: 3454.
-Memory consumption went from 73.9 MB to 73.8 MB.
-Total: 21.113691 ms (FindLiveObjects: 0.515674 ms CreateObjectMapping: 0.286634 ms MarkObjects: 19.247444 ms  DeleteObjects: 1.062005 ms)
+Unloading 2971 unused Assets / (388.9 KB). Loaded Objects now: 3468.
+Memory consumption went from 74.1 MB to 73.7 MB.
+Total: 16.679790 ms (FindLiveObjects: 0.444253 ms CreateObjectMapping: 0.269772 ms MarkObjects: 14.973879 ms  DeleteObjects: 0.990525 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.905 seconds
+- Loaded All Assemblies, in  1.020 seconds
 'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -699,47 +640,47 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 
 (Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
 
-Refreshing native plugins compatible for Editor in 2.98 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 2.83 ms, found 0 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.142 seconds
-Domain Reload Profiling: 2047ms
-	BeginReloadAssembly (210ms)
+- Finished resetting the current domain, in  1.229 seconds
+Domain Reload Profiling: 2250ms
+	BeginReloadAssembly (240ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (73ms)
-	RebuildCommonClasses (64ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (73ms)
 	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (529ms)
-		LoadAssemblies (409ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (599ms)
+		LoadAssemblies (457ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (203ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (184ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1143ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (207ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1230ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (967ms)
+		SetupLoadedEditorAssemblies (1049ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (159ms)
-			ProcessInitializeOnLoadAttributes (517ms)
-			ProcessInitializeOnLoadMethodAttributes (273ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (588ms)
+			ProcessInitializeOnLoadMethodAttributes (280ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 3.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2995 unused Assets / (0.9 MB). Loaded Objects now: 3454.
-Memory consumption went from 73.9 MB to 73.0 MB.
-Total: 16.726944 ms (FindLiveObjects: 0.460289 ms CreateObjectMapping: 0.285343 ms MarkObjects: 14.768434 ms  DeleteObjects: 1.211649 ms)
+Unloading 3007 unused Assets / (0.7 MB). Loaded Objects now: 3468.
+Memory consumption went from 74.0 MB to 73.2 MB.
+Total: 17.806689 ms (FindLiveObjects: 0.510569 ms CreateObjectMapping: 0.374740 ms MarkObjects: 15.923288 ms  DeleteObjects: 0.996608 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -748,33 +689,201 @@ Received Prepare
 'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 2.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2958 unused Assets / (421.9 KB). Loaded Objects now: 3453.
-Memory consumption went from 73.9 MB to 73.5 MB.
-Total: 18.182633 ms (FindLiveObjects: 0.451269 ms CreateObjectMapping: 0.276022 ms MarkObjects: 16.316847 ms  DeleteObjects: 1.136903 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2958 unused Assets / (402.6 KB). Loaded Objects now: 3453.
-Memory consumption went from 73.9 MB to 73.5 MB.
-Total: 16.847707 ms (FindLiveObjects: 0.527580 ms CreateObjectMapping: 0.316942 ms MarkObjects: 15.018369 ms  DeleteObjects: 0.983206 ms)
+Unloading 2971 unused Assets / (373.1 KB). Loaded Objects now: 3468.
+Memory consumption went from 74.1 MB to 73.7 MB.
+Total: 16.214519 ms (FindLiveObjects: 0.409344 ms CreateObjectMapping: 0.270339 ms MarkObjects: 14.634624 ms  DeleteObjects: 0.898803 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.911 seconds
+- Loaded All Assemblies, in  0.884 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.76 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 2.85 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.192 seconds
+Domain Reload Profiling: 2077ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (505ms)
+		LoadAssemblies (399ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (170ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1193ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1017ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (561ms)
+			ProcessInitializeOnLoadMethodAttributes (278ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3007 unused Assets / (0.6 MB). Loaded Objects now: 3468.
+Memory consumption went from 74.0 MB to 73.4 MB.
+Total: 19.310534 ms (FindLiveObjects: 0.643875 ms CreateObjectMapping: 0.320945 ms MarkObjects: 17.041307 ms  DeleteObjects: 1.302097 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2971 unused Assets / (0.8 MB). Loaded Objects now: 3468.
+Memory consumption went from 74.1 MB to 73.3 MB.
+Total: 17.501359 ms (FindLiveObjects: 0.499091 ms CreateObjectMapping: 0.287955 ms MarkObjects: 15.597442 ms  DeleteObjects: 1.115664 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2971 unused Assets / (0.8 MB). Loaded Objects now: 3468.
+Memory consumption went from 74.1 MB to 73.3 MB.
+Total: 17.416276 ms (FindLiveObjects: 0.478335 ms CreateObjectMapping: 0.296722 ms MarkObjects: 15.547678 ms  DeleteObjects: 1.091769 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.935 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.14 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 2.80 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.246 seconds
+Domain Reload Profiling: 2181ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (526ms)
+		LoadAssemblies (418ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (172ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1247ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1058ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (590ms)
+			ProcessInitializeOnLoadMethodAttributes (289ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3007 unused Assets / (0.8 MB). Loaded Objects now: 3468.
+Memory consumption went from 74.0 MB to 73.2 MB.
+Total: 17.162268 ms (FindLiveObjects: 0.446474 ms CreateObjectMapping: 0.274093 ms MarkObjects: 15.280457 ms  DeleteObjects: 1.159956 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2971 unused Assets / (0.8 MB). Loaded Objects now: 3468.
+Memory consumption went from 74.1 MB to 73.3 MB.
+Total: 16.711790 ms (FindLiveObjects: 0.469614 ms CreateObjectMapping: 0.318264 ms MarkObjects: 14.828269 ms  DeleteObjects: 1.094225 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.936 seconds
 'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -797,46 +906,1398 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 
 (Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
 
-Refreshing native plugins compatible for Editor in 2.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 2.84 ms, found 0 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.243 seconds
-Domain Reload Profiling: 2154ms
-	BeginReloadAssembly (219ms)
+- Finished resetting the current domain, in  1.180 seconds
+Domain Reload Profiling: 2116ms
+	BeginReloadAssembly (221ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (65ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (63ms)
 	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (526ms)
-		LoadAssemblies (424ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (552ms)
+		LoadAssemblies (443ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (194ms)
-			TypeCache.Refresh (26ms)
-				TypeCache.ScanAssembly (14ms)
-			BuildScriptInfoCaches (160ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (172ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (1243ms)
+	FinalizeReload (1181ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1041ms)
+		SetupLoadedEditorAssemblies (996ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (14ms)
-			BeforeProcessingInitializeOnLoad (174ms)
-			ProcessInitializeOnLoadAttributes (563ms)
-			ProcessInitializeOnLoadMethodAttributes (278ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (177ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (279ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.49 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 2.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2994 unused Assets / (0.9 MB). Loaded Objects now: 3453.
-Memory consumption went from 73.9 MB to 73.0 MB.
-Total: 17.190721 ms (FindLiveObjects: 0.485334 ms CreateObjectMapping: 0.289021 ms MarkObjects: 15.228409 ms  DeleteObjects: 1.186108 ms)
+Unloading 3007 unused Assets / (0.8 MB). Loaded Objects now: 3468.
+Memory consumption went from 74.0 MB to 73.2 MB.
+Total: 16.892920 ms (FindLiveObjects: 0.447234 ms CreateObjectMapping: 0.264575 ms MarkObjects: 15.068278 ms  DeleteObjects: 1.111423 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2971 unused Assets / (0.8 MB). Loaded Objects now: 3468.
+Memory consumption went from 74.1 MB to 73.3 MB.
+Total: 16.874810 ms (FindLiveObjects: 0.444646 ms CreateObjectMapping: 0.274029 ms MarkObjects: 15.083702 ms  DeleteObjects: 1.070976 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.945 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.72 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 2.76 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.203 seconds
+Domain Reload Profiling: 2148ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (540ms)
+		LoadAssemblies (423ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (180ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1204ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1026ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (529ms)
+			ProcessInitializeOnLoadMethodAttributes (315ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3007 unused Assets / (0.7 MB). Loaded Objects now: 3468.
+Memory consumption went from 74.0 MB to 73.3 MB.
+Total: 18.276091 ms (FindLiveObjects: 0.493663 ms CreateObjectMapping: 0.273876 ms MarkObjects: 16.455887 ms  DeleteObjects: 1.050581 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2970 unused Assets / (0.6 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.5 MB.
+Total: 16.510353 ms (FindLiveObjects: 0.453037 ms CreateObjectMapping: 0.279415 ms MarkObjects: 14.849501 ms  DeleteObjects: 0.927206 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.950 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.82 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 2.85 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.131 seconds
+Domain Reload Profiling: 2081ms
+	BeginReloadAssembly (228ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (551ms)
+		LoadAssemblies (439ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (167ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1132ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (949ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (518ms)
+			ProcessInitializeOnLoadMethodAttributes (259ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3006 unused Assets / (0.8 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.0 MB to 73.2 MB.
+Total: 16.902930 ms (FindLiveObjects: 0.504431 ms CreateObjectMapping: 0.270717 ms MarkObjects: 15.020579 ms  DeleteObjects: 1.105652 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2970 unused Assets / (0.6 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.4 MB.
+Total: 16.944008 ms (FindLiveObjects: 0.459655 ms CreateObjectMapping: 0.269811 ms MarkObjects: 15.082776 ms  DeleteObjects: 1.130425 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.949 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.75 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 2.75 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.176 seconds
+Domain Reload Profiling: 2126ms
+	BeginReloadAssembly (225ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (559ms)
+		LoadAssemblies (445ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (174ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1177ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1000ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (549ms)
+			ProcessInitializeOnLoadMethodAttributes (278ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3006 unused Assets / (0.8 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.0 MB to 73.2 MB.
+Total: 19.989328 ms (FindLiveObjects: 0.487694 ms CreateObjectMapping: 0.300977 ms MarkObjects: 17.935391 ms  DeleteObjects: 1.263631 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1670.548277 seconds.
+  path: Assets/Resources/DB/Health/HealthConfigAsset.asset
+  artifactKey: Guid(33a3d3585bd403f03949d5efe640098b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DB/Health/HealthConfigAsset.asset using Guid(33a3d3585bd403f03949d5efe640098b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e36e6db0c15f7e5a0adc87453bc5c5c0') in 0.035109409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2970 unused Assets / (0.7 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.4 MB.
+Total: 17.709958 ms (FindLiveObjects: 0.462747 ms CreateObjectMapping: 0.276044 ms MarkObjects: 15.980127 ms  DeleteObjects: 0.989722 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.939 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.02 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 2.82 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.190 seconds
+Domain Reload Profiling: 2129ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (111ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (523ms)
+		LoadAssemblies (414ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (14ms)
+			BuildScriptInfoCaches (154ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1191ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1001ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (533ms)
+			ProcessInitializeOnLoadMethodAttributes (286ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3006 unused Assets / (0.5 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.0 MB to 73.5 MB.
+Total: 19.111488 ms (FindLiveObjects: 0.470551 ms CreateObjectMapping: 0.273414 ms MarkObjects: 17.332444 ms  DeleteObjects: 1.033565 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2970 unused Assets / (499.9 KB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.6 MB.
+Total: 19.937007 ms (FindLiveObjects: 0.430378 ms CreateObjectMapping: 0.269748 ms MarkObjects: 18.031092 ms  DeleteObjects: 1.203794 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.940 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.74 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 3.61 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.255 seconds
+Domain Reload Profiling: 2196ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (557ms)
+		LoadAssemblies (439ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (31ms)
+				TypeCache.ScanAssembly (18ms)
+			BuildScriptInfoCaches (164ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1256ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1072ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (170ms)
+			ProcessInitializeOnLoadAttributes (578ms)
+			ProcessInitializeOnLoadMethodAttributes (299ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3006 unused Assets / (0.6 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.0 MB to 73.4 MB.
+Total: 17.354614 ms (FindLiveObjects: 0.472660 ms CreateObjectMapping: 0.307982 ms MarkObjects: 15.454947 ms  DeleteObjects: 1.117468 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2970 unused Assets / (376.4 KB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.7 MB.
+Total: 18.162038 ms (FindLiveObjects: 0.533241 ms CreateObjectMapping: 0.288450 ms MarkObjects: 16.408516 ms  DeleteObjects: 0.930257 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.906 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.77 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 2.81 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.228 seconds
+Domain Reload Profiling: 2134ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (513ms)
+		LoadAssemblies (422ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (14ms)
+			BuildScriptInfoCaches (153ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1228ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1046ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (603ms)
+			ProcessInitializeOnLoadMethodAttributes (266ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3006 unused Assets / (0.6 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.0 MB to 73.4 MB.
+Total: 20.071159 ms (FindLiveObjects: 0.463800 ms CreateObjectMapping: 0.274517 ms MarkObjects: 18.273205 ms  DeleteObjects: 1.058219 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2970 unused Assets / (484.5 KB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.6 MB.
+Total: 17.124637 ms (FindLiveObjects: 0.455625 ms CreateObjectMapping: 0.278703 ms MarkObjects: 15.444885 ms  DeleteObjects: 0.943971 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.970 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.84 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 2.81 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.167 seconds
+Domain Reload Profiling: 2137ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (589ms)
+		LoadAssemblies (466ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (29ms)
+				TypeCache.ScanAssembly (14ms)
+			BuildScriptInfoCaches (168ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1167ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (981ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (521ms)
+			ProcessInitializeOnLoadMethodAttributes (281ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3006 unused Assets / (0.7 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.0 MB to 73.3 MB.
+Total: 17.179330 ms (FindLiveObjects: 0.430682 ms CreateObjectMapping: 0.280612 ms MarkObjects: 15.045169 ms  DeleteObjects: 1.421298 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2970 unused Assets / (0.7 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.4 MB.
+Total: 16.366669 ms (FindLiveObjects: 0.468981 ms CreateObjectMapping: 0.274092 ms MarkObjects: 14.662999 ms  DeleteObjects: 0.959164 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.857 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.71 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 2.84 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.098 seconds
+Domain Reload Profiling: 1955ms
+	BeginReloadAssembly (220ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (481ms)
+		LoadAssemblies (389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (152ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1099ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (931ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (509ms)
+			ProcessInitializeOnLoadMethodAttributes (248ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3006 unused Assets / (0.6 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.0 MB to 73.5 MB.
+Total: 18.007570 ms (FindLiveObjects: 0.545354 ms CreateObjectMapping: 0.349932 ms MarkObjects: 16.042962 ms  DeleteObjects: 1.067618 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2970 unused Assets / (0.7 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.4 MB.
+Total: 19.286011 ms (FindLiveObjects: 0.456573 ms CreateObjectMapping: 0.265042 ms MarkObjects: 17.454541 ms  DeleteObjects: 1.108214 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.904 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.78 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 3.01 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.145 seconds
+Domain Reload Profiling: 2049ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (525ms)
+		LoadAssemblies (413ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (14ms)
+			BuildScriptInfoCaches (156ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1146ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (966ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (543ms)
+			ProcessInitializeOnLoadMethodAttributes (252ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3006 unused Assets / (0.8 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.0 MB to 73.2 MB.
+Total: 18.181699 ms (FindLiveObjects: 0.464959 ms CreateObjectMapping: 0.328774 ms MarkObjects: 16.186073 ms  DeleteObjects: 1.200373 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2970 unused Assets / (427.7 KB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.7 MB.
+Total: 22.484788 ms (FindLiveObjects: 0.470199 ms CreateObjectMapping: 0.322057 ms MarkObjects: 20.624226 ms  DeleteObjects: 1.067110 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.880 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.74 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 2.78 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.155 seconds
+Domain Reload Profiling: 2036ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (501ms)
+		LoadAssemblies (390ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (30ms)
+				TypeCache.ScanAssembly (16ms)
+			BuildScriptInfoCaches (149ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1156ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (987ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (21ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (491ms)
+			ProcessInitializeOnLoadMethodAttributes (297ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3006 unused Assets / (0.8 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.0 MB to 73.2 MB.
+Total: 17.003282 ms (FindLiveObjects: 0.455470 ms CreateObjectMapping: 0.313896 ms MarkObjects: 15.002420 ms  DeleteObjects: 1.230094 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2970 unused Assets / (0.8 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.3 MB.
+Total: 17.190699 ms (FindLiveObjects: 0.470681 ms CreateObjectMapping: 0.315096 ms MarkObjects: 15.039520 ms  DeleteObjects: 1.364043 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.854 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.72 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 3.40 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.161 seconds
+Domain Reload Profiling: 2015ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (498ms)
+		LoadAssemblies (395ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (13ms)
+			BuildScriptInfoCaches (150ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1162ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (985ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (293ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3006 unused Assets / (0.8 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.0 MB to 73.2 MB.
+Total: 16.905073 ms (FindLiveObjects: 0.489855 ms CreateObjectMapping: 0.304476 ms MarkObjects: 14.980382 ms  DeleteObjects: 1.129004 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2970 unused Assets / (0.8 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.3 MB.
+Total: 17.128986 ms (FindLiveObjects: 0.462887 ms CreateObjectMapping: 0.274539 ms MarkObjects: 15.242227 ms  DeleteObjects: 1.148163 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.878 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.17 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 2.81 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.127 seconds
+Domain Reload Profiling: 2007ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (518ms)
+		LoadAssemblies (410ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (13ms)
+			BuildScriptInfoCaches (154ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1128ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (949ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (529ms)
+			ProcessInitializeOnLoadMethodAttributes (247ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3006 unused Assets / (1.1 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.0 MB to 73.0 MB.
+Total: 22.131181 ms (FindLiveObjects: 0.465026 ms CreateObjectMapping: 0.330002 ms MarkObjects: 19.457749 ms  DeleteObjects: 1.876029 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2970 unused Assets / (0.6 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.5 MB.
+Total: 16.349093 ms (FindLiveObjects: 0.440228 ms CreateObjectMapping: 0.263463 ms MarkObjects: 14.642618 ms  DeleteObjects: 1.001647 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.892 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.96 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 2.79 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.110 seconds
+Domain Reload Profiling: 2002ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (511ms)
+		LoadAssemblies (396ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (173ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1110ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (940ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (525ms)
+			ProcessInitializeOnLoadMethodAttributes (254ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3006 unused Assets / (0.8 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.2 MB.
+Total: 16.983670 ms (FindLiveObjects: 0.407594 ms CreateObjectMapping: 0.271241 ms MarkObjects: 15.167061 ms  DeleteObjects: 1.136301 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2970 unused Assets / (0.8 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.3 MB.
+Total: 18.483379 ms (FindLiveObjects: 0.466322 ms CreateObjectMapping: 0.323242 ms MarkObjects: 16.552936 ms  DeleteObjects: 1.139594 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.870 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.72 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 2.81 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.111 seconds
+Domain Reload Profiling: 1981ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (492ms)
+		LoadAssemblies (397ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (154ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1112ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (937ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (513ms)
+			ProcessInitializeOnLoadMethodAttributes (254ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3006 unused Assets / (0.8 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.2 MB.
+Total: 20.861995 ms (FindLiveObjects: 0.468965 ms CreateObjectMapping: 0.332984 ms MarkObjects: 18.923799 ms  DeleteObjects: 1.134668 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2970 unused Assets / (0.7 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.4 MB.
+Total: 16.227357 ms (FindLiveObjects: 0.431252 ms CreateObjectMapping: 0.265748 ms MarkObjects: 14.497571 ms  DeleteObjects: 1.031494 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.880 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.72 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 2.86 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.096 seconds
+Domain Reload Profiling: 1976ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (536ms)
+		LoadAssemblies (411ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (173ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1096ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (930ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (503ms)
+			ProcessInitializeOnLoadMethodAttributes (251ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3006 unused Assets / (0.8 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.3 MB.
+Total: 16.769080 ms (FindLiveObjects: 0.457885 ms CreateObjectMapping: 0.252281 ms MarkObjects: 15.029793 ms  DeleteObjects: 1.027438 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2970 unused Assets / (0.6 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.6 MB.
+Total: 17.062146 ms (FindLiveObjects: 0.463963 ms CreateObjectMapping: 0.289282 ms MarkObjects: 15.370045 ms  DeleteObjects: 0.937253 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.889 seconds
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumTools.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Assets/Photon/Quantum/Editor/QuantumCustomEditors.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.72 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+System.TypeLoadException: Could not load type 'UnityEditor.LayerMatrixGUI' from assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+  at (wrapper managed-to-native) System.Reflection.Assembly.InternalGetType(System.Reflection.Assembly,System.Reflection.Module,string,bool,bool)
+  at System.Reflection.RuntimeAssembly.GetType (System.String name, System.Boolean throwOnError, System.Boolean ignoreCase) [0x00022] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at System.Reflection.Assembly.GetType (System.String name, System.Boolean throwOnError) [0x00000] in <968dbf724b484960adb704ddfc350bd1>:0 
+  at Quantum.Editor.UnityInternal+LayerMatrixGUI..cctor () [0x00000] in /home/yurinka/Projects/TestTasks/Quantum-platformer-fall/Platformer Tech Sample/Assets/Photon/Quantum/Editor/QuantumUtils.cs:1108 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 126)
+
+Refreshing native plugins compatible for Editor in 2.81 ms, found 0 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.126 seconds
+Domain Reload Profiling: 2015ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (532ms)
+		LoadAssemblies (434ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (155ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1127ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (949ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (516ms)
+			ProcessInitializeOnLoadMethodAttributes (250ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3006 unused Assets / (0.8 MB). Loaded Objects now: 3467.
+Memory consumption went from 74.1 MB to 73.2 MB.
+Total: 17.701948 ms (FindLiveObjects: 0.422648 ms CreateObjectMapping: 0.269951 ms MarkObjects: 15.869413 ms  DeleteObjects: 1.138030 ms)
 
 Prepare: number of updated asset objects reloaded= 0

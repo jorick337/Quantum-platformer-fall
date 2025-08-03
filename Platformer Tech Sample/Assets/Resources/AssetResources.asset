@@ -36,6 +36,11 @@ MonoBehaviour:
         Id:
           Value: 5
       ResourcePath: DB/Configs/SimulationConfig
+    - Path: Resources/DB/Health/HealthConfigAsset
+      AssetRef:
+        Id:
+          Value: 311962978520919323
+      ResourcePath: DB/Health/HealthConfigAsset
     - Path: Resources/DB/PlayerCharacter|EntityPrototype
       AssetRef:
         Id:
@@ -96,3 +101,8 @@ MonoBehaviour:
         Id:
           Value: 4513153228283176433
       ResourcePath: DB/DefaultPlatformControllerConfig
+    - Path: Resources/DB/Health/FallStateConfig
+      AssetRef:
+        Id:
+          Value: 4564947284476407672
+      ResourcePath: DB/Health/FallStateConfig

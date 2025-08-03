@@ -1,0 +1,12 @@
+﻿asset FallStateConfig;
+
+component FallStateComponent 
+{
+    asset_ref<FallStateConfig> Config;
+
+    [ExcludeFromPrototype]
+    FP StartY;
+
+    [ExcludeFromPrototype]
+    bool IsFalling;
+}

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Photon/QuantumDemo/Game/Game.unity
+- path: Assets/Photon/QuantumDemo/Menu/Menu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

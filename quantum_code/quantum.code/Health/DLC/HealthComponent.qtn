@@ -1,0 +1,31 @@
+﻿asset HealthConfig;
+
+component HealthComponent 
+{
+    asset_ref<HealthConfig> Config;
+
+    [ExcludeFromPrototype]
+    FP PreviousHealth;
+
+    [ExcludeFromPrototype]
+    FP CurrentHealth;
+
+    [ExcludeFromPrototype]
+    bool IsDead;
+
+    [ExcludeFromPrototype]
+    bool IsInitialize;
+}
+
+event OnHealthChanged
+{
+    int lastValue;
+    int newValue;
+}
+
+event OnHealthInitialized
+{
+    int value;
+}
+
+event OnHealthDead {} 

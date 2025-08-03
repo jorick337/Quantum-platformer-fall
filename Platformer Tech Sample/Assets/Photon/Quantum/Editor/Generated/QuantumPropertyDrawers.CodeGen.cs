@@ -8,6 +8,20 @@ namespace Quantum.Editor {
   using UnityEngine;
   using UnityEditor;
 
+  [CustomPropertyDrawer(typeof(AssetRefFallStateConfig))]
+  public class AssetRefFallStateConfigPropertyDrawer : PropertyDrawer {
+    public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) {
+      AssetRefDrawer.DrawAssetRefSelector(position, property, label, typeof(FallStateConfigAsset));
+    }
+  }
+
+  [CustomPropertyDrawer(typeof(AssetRefHealthConfig))]
+  public class AssetRefHealthConfigPropertyDrawer : PropertyDrawer {
+    public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) {
+      AssetRefDrawer.DrawAssetRefSelector(position, property, label, typeof(HealthConfigAsset));
+    }
+  }
+
   [CustomPropertyDrawer(typeof(AssetRefPlatformConfig))]
   public class AssetRefPlatformConfigPropertyDrawer : PropertyDrawer {
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) {

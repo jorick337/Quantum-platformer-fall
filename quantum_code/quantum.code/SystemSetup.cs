@@ -1,4 +1,5 @@
-﻿using Quantum.Platformer;
+﻿using Quantum.Health;
+using Quantum.Platformer;
 
 namespace Quantum
 {
@@ -31,7 +32,9 @@ namespace Quantum
                 new PlayerSpawnSystem(),
                 new MovementSystem(),
                 new PlayerHeadSystem(),
-            };
+                new HealthSystem(),
+                new FallDamageSystem(),
+        };
         }
     }
 }
